@@ -14,3 +14,19 @@ cordova plugin add cordova-plugin-admob-simple
 OR
 
 cordova plugin add https://github.com/sunnycupertino/cordova-plugin-admob-simple
+
+in file index.html
+change the key
+banner and  interstitial
+	ios : {
+					banner: 'ca-app-pub-6869992474017983/4806197152',
+					interstitial: 'ca-app-pub-6869992474017983/7563979554'
+				},
+				android : {
+					banner: 'ca-app-pub-5051980663688704/6989554279',
+					interstitial: 'ca-app-pub-5051980663688704/5512821071'
+				},
+				wp8 : {
+					banner: 'ca-app-pub-6869992474017983/8878394753',
+					interstitial: 'ca-app-pub-6869992474017983/1355127956'
+				}
